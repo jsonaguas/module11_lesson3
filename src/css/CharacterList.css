@@ -1,0 +1,25 @@
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.character-card h3 {
+    margin: 8px 0;
+    font-size: 1.2em;
+}
